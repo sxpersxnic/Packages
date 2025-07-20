@@ -1,3 +1,3 @@
-# `@sxnic/eslint-config`
+# `@sxnic/typescript-config`
 
 Package for shared TypeScript config
