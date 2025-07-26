@@ -1,0 +1,23 @@
+{
+  "name": "@sxnic/typescript-config",
+  "version": "1.0.0",
+  "description": "Shared TypeScript configurations for sxnic projects",
+  "main": "base.json",
+  "keywords": [
+    "typescript",
+    "config",
+    "configuration",
+    "tsconfig"
+  ],
+  "author": "sxpersxnic",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^4.0.0 || ^5.0.0"
+  },
+  "files": [
+    "base.json",
+    "node.json",
+    "react.json",
+    "library.json"
+  ]
+}

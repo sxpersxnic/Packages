@@ -1,0 +1,23 @@
+{
+  "name": "@sxnic/tsup-config",
+  "version": "1.0.0",
+  "description": "Shared Tsup bundler configuration for sxnic projects",
+  "main": "index.js",
+  "keywords": [
+    "tsup",
+    "config",
+    "configuration",
+    "bundler",
+    "typescript"
+  ],
+  "author": "sxpersxnic",
+  "license": "MIT",
+  "peerDependencies": {
+    "tsup": "^7.0.0 || ^8.0.0"
+  },
+  "files": [
+    "index.js",
+    "library.js",
+    "cli.js"
+  ]
+}

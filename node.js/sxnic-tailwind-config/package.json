@@ -1,0 +1,26 @@
+{
+  "name": "@sxnic/tailwind-config",
+  "version": "1.0.0",
+  "description": "Shared TailwindCSS configuration for sxnic projects",
+  "main": "index.js",
+  "keywords": [
+    "tailwindcss",
+    "config",
+    "configuration",
+    "css",
+    "design-system"
+  ],
+  "author": "sxpersxnic",
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/aspect-ratio": "^0.4.2"
+  },
+  "files": [
+    "index.js"
+  ]
+}

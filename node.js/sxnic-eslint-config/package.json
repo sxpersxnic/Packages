@@ -1,0 +1,34 @@
+{
+  "name": "@sxnic/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint configuration for sxnic projects",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "config",
+    "configuration",
+    "lint",
+    "javascript",
+    "typescript"
+  ],
+  "author": "sxpersxnic",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.0.0 || ^9.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "files": [
+    "index.js",
+    "base.js",
+    "react.js",
+    "typescript.js"
+  ]
+}

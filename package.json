@@ -1,0 +1,26 @@
+{
+  "name": "@sxnic/packages",
+  "version": "1.0.0",
+  "description": "Utilities and configurations to remove boilerplate",
+  "private": true,
+  "workspaces": [
+    "node.js/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@sxnic/react-components --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present"
+  },
+  "keywords": [
+    "utilities",
+    "configuration",
+    "boilerplate",
+    "monorepo"
+  ],
+  "author": "sxpersxnic",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
